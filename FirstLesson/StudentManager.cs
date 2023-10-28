@@ -21,12 +21,7 @@ public class StudentManager
         string surname = Console.ReadLine().ToString();
         Console.WriteLine("");
 
-        Student newSt = new Student()
-        {
-            Id = id,
-            Name = name,
-            Surname = surname,
-        };
+        Student newSt = new Student(id, name, surname);
 
         students.Add(newSt);
 
