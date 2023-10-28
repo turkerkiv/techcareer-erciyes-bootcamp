@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\turke\\OneDrive\\Masaüstü\\techcareer-erciyes-bootcamp\\Erciyes bootcamp techcareer.csproj",
+      "projectUniqueName": "C:\\Users\\turke\\OneDrive\\Masaüstü\\techcareer-erciyes-bootcamp\\FirstLesson\\Erciyes bootcamp techcareer.csproj",
       "projectName": "Erciyes bootcamp techcareer",
-      "projectPath": "C:\\Users\\turke\\OneDrive\\Masaüstü\\techcareer-erciyes-bootcamp\\Erciyes bootcamp techcareer.csproj",
+      "projectPath": "C:\\Users\\turke\\OneDrive\\Masaüstü\\techcareer-erciyes-bootcamp\\FirstLesson\\Erciyes bootcamp techcareer.csproj",
       "packagesPath": "C:\\Users\\turke\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\turke\\OneDrive\\Masaüstü\\techcareer-erciyes-bootcamp\\obj\\",
+      "outputPath": "C:\\Users\\turke\\OneDrive\\Masaüstü\\techcareer-erciyes-bootcamp\\FirstLesson\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\turke\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -4,8 +4,13 @@ using System.Dynamic;
 
 public class StudentManager
 {
-    private List<Student> students = new List<Student>();
-    public List<Student> Students { get { return students; } }
+    private List<Person> students = new List<Person>();
+    public List<Person> Students { get { return students; } }
+
+    public StudentManager()
+    {
+        students.Add(new Person(0, "Polymorphism", "test"));
+    }
 
     public void AddStudent()
     {
@@ -24,14 +29,13 @@ public class StudentManager
         Student newSt = new Student(id, name, surname);
 
         students.Add(newSt);
-
     }
 
     public void ListAllStudents()
     {
-        foreach (Student st in students)
+        foreach (Person pr in students)
         {
-            st.ListStudentInfo();
+            pr.ListPersonInfo();
             Console.WriteLine("");
         }
     }

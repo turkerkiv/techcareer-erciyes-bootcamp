@@ -1,21 +1,10 @@
-public class Student
+public class Student : Person
 {
-    private int _id;
-    private string _name;
-    private string _surname;
-
-    public int Id { get { return _id; } }
-    public string Name { get { return _name; } }
-    public string Surname { get { return _surname; } }
-
-    public Student(int id, string name, string surname)
+    public Student(int id, string name, string surname) : base(id, name, surname)
     {
-        _id = id;
-        _name = name;
-        _surname = surname;
     }
 
-    public void ListStudentInfo()
+    public override void ListPersonInfo()
     {
         Console.WriteLine($"ID: {Id}");
         Console.WriteLine($"Student's name: {Name}");
