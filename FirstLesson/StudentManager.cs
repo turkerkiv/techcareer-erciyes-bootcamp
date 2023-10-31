@@ -39,4 +39,9 @@ public class StudentManager
             Console.WriteLine("");
         }
     }
+
+    public T GetAnything<T>(T anything)
+    {
+        return anything;
+    }
 }
