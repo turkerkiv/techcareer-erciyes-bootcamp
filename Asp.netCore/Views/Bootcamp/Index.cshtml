@@ -1,14 +1,12 @@
-@Model Bootcamp
+@model List<Bootcamp>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <p>Testing!!!</p>
-    <p>@Model.Id</p>
-</body>
-</html>
+<p class="border-bottom text-center fs-1 fw-bold pb-3">Courses</p>
+
+@foreach(var bt in @Model)
+{
+<div class="d-flex flex-column align-items-center border-bottom py-3">
+    <p class="fs-6 fw-bold">Course ID: <span class="fw-normal">@bt.Id</span></p>
+    <p class="fs-6 fw-bold">Course name: <span class="fw-normal">@bt.Name</span></p>
+    <p class="fs-6 fw-bold">Course description: <span class="fw-normal">@bt.Desc</span></p>
+</div>
+}
