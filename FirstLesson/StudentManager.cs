@@ -1,7 +1,3 @@
-using System.ComponentModel;
-using System.Data.Common;
-using System.Dynamic;
-
 public class StudentManager
 {
     private List<Person> students = new List<Person>();

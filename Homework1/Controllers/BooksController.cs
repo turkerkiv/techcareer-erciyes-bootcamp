@@ -15,7 +15,6 @@ public class BooksController : Controller
     public IActionResult Index(string query)
     {
         List<Book> result = BookRepository.Books;
-        Console.WriteLine(query + "1");
 
         if(!String.IsNullOrEmpty(query))
         {
