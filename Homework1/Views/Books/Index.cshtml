@@ -1,0 +1,13 @@
+@model List<Book>
+
+@foreach(var b in @Model)
+{
+    <div class="d-flex border rounded mb-3">
+        <img class="img-thumbnail" src=@b.ImgUrl alt="Book's cover" style="width:100px">
+        <div class="d-flex flex-column">
+            <h5 class="pt-3">@b.Name</h5>
+            <p class="">@b.Author</p>
+            <p class="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio aspernatur incidunt ipsam vel illo nemo ipsum aliquid, rerum nihil quaerat quod, rem sunt dicta id minima. Pariatur incidunt distinctio atque!</p>
+        </div>
+    </div>
+}
